@@ -27,6 +27,13 @@ Then output the results to screen and index into Splunk.  Providing you with the
 - sha256
 - version
 
+## What command does this run?
+```autorunsc.exe -c -h -m -accepteula -a *```
+- ```-m```	Hide Microsoft entries (signed entries if used with -v).
+- ```-a```	Autostart entry selection: ```*```	All.
+- ```-c```  Print output as CSV.
+- ```-accepteula``` Accept the end user license agreement
+- ```-h```  Show file hashes.
 ## How do I use this app?
 Install the app on heavy forwarders, indexers and search heads for field extractions.
 
